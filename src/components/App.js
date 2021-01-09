@@ -10,19 +10,21 @@ class App extends React.Component{
     this.state = {
       breakLength: 5,
       sessionLength: 25,
-      TimerLength: 25
+      TimerMinute: 25
     }
   }
 
   render(){
-  return (
-    <main>
-      <h1>Pomodoro Clock</h1>
-      <BreakInterval BreakInterval={this.state.breakLength}/>
-      <SessionInterval SessionInterval={this.state.sessionLength}/>
-      <Timer />
-    </main>
-  );
+    return (
+      <main>
+        <h2>Pomodoro Clock</h2>
+        <section className = "IntervalLengthContainer">
+          <BreakInterval BreakInterval={this.state.breakLength}/>
+          <SessionInterval SessionInterval={this.state.sessionLength}/>
+        </section>
+        <Timer TimerMinute={this.state.TimerMinute} />
+      </main>
+    );
   }
 }
 
