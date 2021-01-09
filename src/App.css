@@ -4,7 +4,7 @@ main{
     height: 100%;
     justify-content: center;
     align-items: center;
-    font-family: mo;
+    font-family: monospace;
 }
 
 body{
@@ -20,24 +20,25 @@ h4{
     text-align: center;
     font-size: 1.9rem;
     font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .IntervalBox{
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
+    font-weight: 400;
+    font-size: 1.5rem;
     align-items: center;
 }
 
 .IntervalLengthContainer{
     display: flex;
-    margin: 0 60px;
+    margin: 0 70px;
 }
 
 .IntervalLength{
-    font-weight:  2rem;
+    font-weight: 2rem;
     margin: 0 10px;
 }
 
@@ -45,22 +46,18 @@ button{
     display:inline-block;
     padding:0.3em 1.2em;
     margin: 10px;
-    border:0.16em solid rgba(255,255,255,0);
-    border-radius:2em;
+    border:2px solid ;
+    border-radius:10px;
     box-sizing: border-box;
     text-decoration:none;
     font-family: monospace;
     font-weight:300;
-    color:rgb(255, 0, 0);
-    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    color:rgb(0, 0, 0);
     text-align:center;
     transition: all 0.2s;
-    width: 75 px;
+    width: 100px;
 }
 
-button:hover{
-    border-color: rgba(255,255,255,1);
-}
 
 button:disabled {
     cursor: not-allowed;
@@ -73,6 +70,7 @@ button:disabled {
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     padding: 10px;
+    background-color: rgba(255,255,255,1);
 }
 
 .timer{
@@ -85,4 +83,8 @@ button:disabled {
     margin-right: 20px;
     text-align: center;
     
+}
+
+.margin-fix{
+    margin: 10px;
 }

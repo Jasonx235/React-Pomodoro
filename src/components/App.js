@@ -92,7 +92,7 @@ class App extends React.Component{
   render(){
     return (
       <main>
-        <h2>Pomodoro Clock</h2>
+        <h2>Pomodoro Timer</h2>
         <section className = "IntervalLengthContainer">
           <BreakInterval 
           isPlay = {this.state.isPlay}

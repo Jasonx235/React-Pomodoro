@@ -16,7 +16,7 @@ function BreakInterval(props){
     }
 
     return(
-        <section>
+        <section className="margin-fix">
             <h4>Break Length</h4>
             <section className="IntervalBox">
                 <button disabled={props.isPlay === true ? "disabled" : ""} onClick={decreaseCounter}>Down</button>
