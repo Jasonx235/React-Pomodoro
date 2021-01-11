@@ -5,10 +5,11 @@ main{
     justify-content: center;
     align-items: center;
     font-family: monospace;
+    margin-top: 125px;
 }
 
 body{
-    background-color: #EB1C24;
+    background-color: #957DAD;
     
 }
 
@@ -44,7 +45,7 @@ h4{
 
 button{
     display:inline-block;
-    padding:0.3em 1.2em;
+    padding:10px;
     margin: 10px;
     border:2px solid ;
     border-radius:10px;
@@ -54,8 +55,10 @@ button{
     font-weight:300;
     color:rgb(0, 0, 0);
     text-align:center;
-    transition: all 0.2s;
     width: 100px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 
